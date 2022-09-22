@@ -1,0 +1,14 @@
+create table student
+(No number(2), name varchar(15), school varchar(10), hobby varchar(15), std number(2), gender varchar(1));
+insert into student values(null, 'ajit', 'xavier', 'dance', 5, 'm');
+insert into student values(2, null, 'sharda', 'singing', 5,'f');
+insert into student values(3, 'pratixa', null, 'cricket', 5, 'f'); 
+insert into student values(4, 'deepam', 'h.b.k', null, 6, 'f');
+insert into student values(5, 'nisha', 'santkabir', 'cricket', null, 'f');
+insert into student values(6, 'anya', 'xavier', 'singing', 6, null);
+insert into student values(7, 'raj', 'a-one', 'painting', null, 'm');
+insert into student values(8, 'monish', null, 'karate', 6, 'm');
+insert into student values(9, 'ram', null, 'dance', 6, 'm');
+insert into student values(10, null, 'santkabir', 'singing', 6, 'm');
+select* from student;
+ 
